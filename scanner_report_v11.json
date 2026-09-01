@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-01T23:06:45.741000Z",
+  "params": {
+    "BINANCE_TOP_CANDIDATES": 400,
+    "scanners": {
+      "F4": {
+        "description": "CVD surge/acceleration: up >= 10% or >= $20M within 24h (4H)",
+        "sort_hint": [
+          "delta_usd",
+          "increase_pct"
+        ]
+      },
+      "INFLOW24": {
+        "description": "24h Net Taker Inflow (CoinGlass-style Netflow) >= $5M (1H)",
+        "sort_hint": [
+          "net_flow_usd_24h"
+        ]
+      }
+    }
+  },
+  "scanners": {
+    "F4": {
+      "description": "CVD surge/acceleration: up >= 10% or >= $20M within 24h (4H)",
+      "count": 14,
+      "output_csv": "scanner_F4_final_v9.csv"
+    },
+    "INFLOW24": {
+      "description": "24h Net Taker Inflow (CoinGlass-style Netflow) >= $5M (1H)",
+      "count": 6,
+      "output_csv": "scanner_INFLOW24_final_v9.csv"
+    }
+  },
+  "overlaps": {
+    "count": 3,
+    "output_csv": "scanner_overlaps_v11.csv"
+  }
+}
