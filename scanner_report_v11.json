@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:06:45.741000Z",
+  "generated_at": "2026-09-11T05:45:15.199000Z",
   "params": {
     "BINANCE_TOP_CANDIDATES": 400,
     "scanners": {
@@ -21,12 +21,12 @@
   "scanners": {
     "F4": {
       "description": "CVD surge/acceleration: up >= 10% or >= $20M within 24h (4H)",
-      "count": 14,
+      "count": 19,
       "output_csv": "scanner_F4_final_v9.csv"
     },
     "INFLOW24": {
       "description": "24h Net Taker Inflow (CoinGlass-style Netflow) >= $5M (1H)",
-      "count": 6,
+      "count": 5,
       "output_csv": "scanner_INFLOW24_final_v9.csv"
     }
   },
