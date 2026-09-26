@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T05:45:15.199000Z",
+  "generated_at": "2026-09-26T16:55:01.015000Z",
   "params": {
     "BINANCE_TOP_CANDIDATES": 400,
     "scanners": {
@@ -21,7 +21,7 @@
   "scanners": {
     "F4": {
       "description": "CVD surge/acceleration: up >= 10% or >= $20M within 24h (4H)",
-      "count": 19,
+      "count": 12,
       "output_csv": "scanner_F4_final_v9.csv"
     },
     "INFLOW24": {
@@ -31,7 +31,7 @@
     }
   },
   "overlaps": {
-    "count": 3,
+    "count": 2,
     "output_csv": "scanner_overlaps_v11.csv"
   }
 }
